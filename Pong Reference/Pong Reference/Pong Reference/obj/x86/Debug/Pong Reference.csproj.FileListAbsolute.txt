@@ -1,0 +1,18 @@
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman1.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman2.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\ball.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Pong Reference.exe
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Pong Reference.pdb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.csprojResolveAssemblyReference.cache
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.exe
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.pdb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\clash.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash1.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\chord.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Fchord.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Gchord.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.xnb
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.wma
+L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\SpriteFont1.xnb

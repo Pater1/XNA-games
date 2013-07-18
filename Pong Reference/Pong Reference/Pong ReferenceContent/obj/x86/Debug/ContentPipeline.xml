@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>stickman1.png</Source>
+      <Name>stickman1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman1.xnb</Output>
+      <Time>2013-07-15T23:16:19.075-07:00</Time>
+    </Item>
+    <Item>
+      <Source>stickman2.png</Source>
+      <Name>stickman2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman2.xnb</Output>
+      <Time>2013-07-15T23:16:25.597-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ball.png</Source>
+      <Name>ball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\ball.xnb</Output>
+      <Time>2013-07-15T23:27:58.078-07:00</Time>
+    </Item>
+    <Item>
+      <Source>clash.wav</Source>
+      <Name>clash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\clash.xnb</Output>
+      <Time>2013-07-17T18:51:16.254-07:00</Time>
+    </Item>
+    <Item>
+      <Source>crash.wav</Source>
+      <Name>crash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash.xnb</Output>
+      <Time>2013-07-17T18:51:16.43-07:00</Time>
+    </Item>
+    <Item>
+      <Source>crash1.wav</Source>
+      <Name>crash1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash1.xnb</Output>
+      <Time>2013-07-17T18:51:16.87-07:00</Time>
+    </Item>
+    <Item>
+      <Source>chord.wav</Source>
+      <Name>chord</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\chord.xnb</Output>
+      <Time>2013-07-17T19:08:36.694-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fchord.wav</Source>
+      <Name>Fchord</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Fchord.xnb</Output>
+      <Time>2013-07-17T19:18:11.894-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Gchord.wav</Source>
+      <Name>Gchord</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Gchord.xnb</Output>
+      <Time>2013-07-17T19:18:12.028-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Maneater_60.mp3</Source>
+      <Name>Maneater_60</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.xnb</Output>
+      <Extra>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.wma</Extra>
+      <Time>2013-07-17T19:59:17.29-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2013-07-17T20:30:43.744-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong ReferenceContent\</RootDirectory>
+      <LoggerRootDirectory>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\</LoggerRootDirectory>
+      <IntermediateDirectory>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong ReferenceContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-06-12T15:30:55.4462-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
