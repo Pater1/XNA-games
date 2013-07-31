@@ -23,7 +23,7 @@ namespace Pong_Reference
 
         Rectangle stickMan1Rectangle, stickMan2Rectangle, ballRectangle;
 
-        int stickmanSpeed = 10, ballSpeed = 1;//sprite speeds
+        int stickmanSpeed = 10, ballSpeedX = 5, ballSpeedY = 5, ballSpeedLimit = 20;//sprite speeds
 
         int stickMan1X = 700, stickMan1Y, stickMan2X = 0, stickMan2Y, ballX, ballY;//sprite positions
 
@@ -31,7 +31,7 @@ namespace Pong_Reference
 
         int stickMan1Width, stickMan1Height, stickMan2Width, stickMan2Height, ballWidth, ballHeight;// sprite sizes
 
-        bool ballMoveUp = true, ballMoveRight = true;
+        bool ballMoveUp = false, ballMoveRight = true;
 
         SoundEffect clashSound, crashSound, crash1Sound, chordSound, FchordSound;
 
@@ -77,13 +77,13 @@ namespace Pong_Reference
             ballTexture = this.Content.Load<Texture2D>("ball");
 
             //get widths of pics (and correct size differences)
-            stickMan1Width = stickMan1Texture.Width/2;
-            stickMan1Height = stickMan1Texture.Height/2;
-            stickMan2Width = stickMan2Texture.Width/4;
-            stickMan2Height = stickMan2Texture.Height/4;
+            stickMan1Width = stickMan1Texture.Width/3;
+            stickMan1Height = stickMan1Texture.Height/3;
+            stickMan2Width = stickMan2Texture.Width/6;
+            stickMan2Height = stickMan2Texture.Height/6;
 
-            ballWidth = ballTexture.Width/2;
-            ballHeight = ballTexture.Height/2;
+            ballWidth = ballTexture.Width/3;
+            ballHeight = ballTexture.Height/3;
 
             //combine textures with rectangles
             stickMan1Rectangle = new Rectangle(stickMan1X, stickMan1Y, stickMan1Width, stickMan1Height);
@@ -116,11 +116,7 @@ namespace Pong_Reference
             FchordInstance.Volume = 1f;
             FchordInstance.IsLooped = false;
 
-            //load and play song
-            Maneater = this.Content.Load<Song>("Maneater_60");
-            MediaPlayer.Play(Maneater);
-            MediaPlayer.IsRepeating = true;
-            MediaPlayer.Volume = 1f;
+
 
             //load font
             Font = Content.Load<SpriteFont>("SpriteFont1");
@@ -163,13 +159,15 @@ namespace Pong_Reference
             if (stickMan2Rectangle.Y < 0) stickMan2Rectangle.Y = 0;
             if (stickMan2Rectangle.Y > (GraphicsDevice.Viewport.Height - stickMan2Height)) stickMan2Rectangle.Y = (GraphicsDevice.Viewport.Height - stickMan2Height);
 
-            if (ballSpeed > 20) ballSpeed = 20;
+            if (ballSpeedX > ballSpeedLimit) ballSpeedX = ballSpeedLimit;
+            if (ballSpeedY > ballSpeedLimit) ballSpeedY = ballSpeedLimit;
+            
 
             //ball functions
-            if (ballMoveRight == true) ballRectangle.X += ballSpeed;
-            else ballRectangle.X -= ballSpeed;
-            if (ballMoveUp == true) ballRectangle.Y -= ballSpeed;
-            else ballRectangle.Y += ballSpeed;
+            if (ballMoveRight == true) ballRectangle.X += ballSpeedX;
+            else ballRectangle.X -= ballSpeedX;
+            if (ballMoveUp == true) ballRectangle.Y -= ballSpeedY;
+            else ballRectangle.Y += ballSpeedY;
 
             if (ballRectangle.X < 0)
             {
@@ -203,13 +201,41 @@ namespace Pong_Reference
             {
                 ballMoveRight = true;
                 crashInstance.Play();
-                ballSpeed +=1;
+                ballSpeedX +=1;
+                if (keys.IsKeyDown(Keys.S))
+                {
+                    ballMoveUp = false;
+                    ballSpeedY += stickmanSpeed;
+                }
+                if (keys.IsKeyDown(Keys.W))
+                {
+                    ballMoveUp = true;
+                    ballSpeedY += stickmanSpeed;
+                }
+                else
+                {
+                    if (ballSpeedY > 1) ballSpeedY -= 1;
+                }
             }
             if (ballRectangle.Intersects(stickMan1Rectangle))
             {
                 ballMoveRight = false;
                 crash1Instance.Play();
-                ballSpeed +=1;
+                ballSpeedX +=1;
+                if (keys.IsKeyDown(Keys.Up))
+                {
+                    ballMoveUp = true;
+                    ballSpeedY += stickmanSpeed;
+                }
+                if (keys.IsKeyDown(Keys.Down))
+                {
+                    ballMoveUp = false;
+                    ballSpeedY +=  stickmanSpeed;
+                }
+                else
+                {
+                    if (ballSpeedY > 1) ballSpeedY -= 1;
+                }
             }
 
 

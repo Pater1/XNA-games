@@ -1,1 +1,2 @@
 L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong ReferenceContent\obj\x86\Debug\Pong ReferenceContent.contentprojResolveAssemblyReference.cache
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong ReferenceContent\obj\x86\Debug\Pong ReferenceContent.contentprojResolveAssemblyReference.cache

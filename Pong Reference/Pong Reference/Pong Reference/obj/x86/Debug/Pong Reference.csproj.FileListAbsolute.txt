@@ -13,6 +13,20 @@ L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\
 L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\chord.xnb
 L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Fchord.xnb
 L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Gchord.xnb
-L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.xnb
-L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Maneater_60.wma
 L:\you tube stuff\C# XNA\games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman2.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\ball.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\clash.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\chord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Fchord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Gchord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Pong Reference.exe
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Pong Reference.pdb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.csprojResolveAssemblyReference.cache
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.exe
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\obj\x86\Debug\Pong Reference.pdb

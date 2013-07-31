@@ -7,6 +7,4 @@ Content\crash1.xnb
 Content\chord.xnb
 Content\Fchord.xnb
 Content\Gchord.xnb
-Content\Maneater_60.xnb
-Content\Maneater_60.wma
 Content\SpriteFont1.xnb

@@ -1,0 +1,15 @@
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\ball.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\stickman1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\stickman2.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Cchord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\clash.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\crash.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\crash1.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Fchord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Gchord.xnb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Pong.exe
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Pong.pdb
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.csprojResolveAssemblyReference.cache
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.exe
+C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\obj\x86\Debug\Pong.pdb

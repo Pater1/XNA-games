@@ -2,13 +2,22 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>ball.png</Source>
+      <Name>ball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\ball.xnb</Output>
+      <Time>2013-07-30T17:18:27.9686-07:00</Time>
+    </Item>
+    <Item>
       <Source>stickman1.png</Source>
       <Name>stickman1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman1.xnb</Output>
-      <Time>2013-07-15T23:16:19.075-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\stickman1.xnb</Output>
+      <Time>2013-07-30T17:18:41.1366-07:00</Time>
     </Item>
     <Item>
       <Source>stickman2.png</Source>
@@ -16,17 +25,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\stickman2.xnb</Output>
-      <Time>2013-07-15T23:16:25.597-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\stickman2.xnb</Output>
+      <Time>2013-07-30T17:18:41.1326-07:00</Time>
     </Item>
     <Item>
-      <Source>ball.png</Source>
-      <Name>ball</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
+      <Source>Cchord.wav</Source>
+      <Name>Cchord</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\ball.xnb</Output>
-      <Time>2013-07-15T23:27:58.078-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Cchord.xnb</Output>
+      <Time>2013-07-30T17:18:51.2156-07:00</Time>
     </Item>
     <Item>
       <Source>clash.wav</Source>
@@ -34,8 +43,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\clash.xnb</Output>
-      <Time>2013-07-17T18:51:16.254-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\clash.xnb</Output>
+      <Time>2013-07-30T17:18:51.2146-07:00</Time>
     </Item>
     <Item>
       <Source>crash.wav</Source>
@@ -43,8 +52,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash.xnb</Output>
-      <Time>2013-07-17T18:51:16.43-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\crash.xnb</Output>
+      <Time>2013-07-30T17:18:51.2136-07:00</Time>
     </Item>
     <Item>
       <Source>crash1.wav</Source>
@@ -52,17 +61,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\crash1.xnb</Output>
-      <Time>2013-07-17T18:51:16.87-07:00</Time>
-    </Item>
-    <Item>
-      <Source>chord.wav</Source>
-      <Name>chord</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\chord.xnb</Output>
-      <Time>2013-07-17T19:08:36.694-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\crash1.xnb</Output>
+      <Time>2013-07-30T17:18:51.2116-07:00</Time>
     </Item>
     <Item>
       <Source>Fchord.wav</Source>
@@ -70,8 +70,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Fchord.xnb</Output>
-      <Time>2013-07-17T19:18:11.894-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Fchord.xnb</Output>
+      <Time>2013-07-30T17:18:51.2106-07:00</Time>
     </Item>
     <Item>
       <Source>Gchord.wav</Source>
@@ -79,17 +79,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\Gchord.xnb</Output>
-      <Time>2013-07-17T19:18:12.028-07:00</Time>
-    </Item>
-    <Item>
-      <Source>SpriteFont1.spritefont</Source>
-      <Name>SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2013-07-30T16:34:49.2406-07:00</Time>
+      <Output>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\Gchord.xnb</Output>
+      <Time>2013-07-30T17:18:51.1936-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -97,10 +88,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong ReferenceContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong ReferenceContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong Reference\Pong Reference\Pong Reference\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\PongContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\PongContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Pater\Documents\GitHub\XNA-games\Pong\Pong\Pong\Pong\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
