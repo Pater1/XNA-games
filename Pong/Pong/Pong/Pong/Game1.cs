@@ -25,7 +25,9 @@ namespace Pong
 
         int stickManSpeed = 10, ballSpeed = 5;//speed of our sprites
 
-        int stickMan1X, stickMan1Y, stickMan2X, stickMan2Y, ballX, ballY;//place of our sprites
+        int stickMan1Score, stickMan2Score;
+
+        int stickMan1X, stickMan1Y, stickMan2X = 650, stickMan2Y, ballX = 100, ballY = 50;//place of our sprites
 
         int stickMan1Width, stickMan1Height, stickMan2Width, stickMan2Height, ballWidth, ballHeight;// height and width of our sprites
 
@@ -97,13 +99,69 @@ namespace Pong
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
+            KeyboardState keys = Keyboard.GetState();
+            //Movement Logic
+            if (keys.IsKeyDown(Keys.Down))
+            {
+                stickMan2Rectangle.Y += stickManSpeed;
+            }
+            if (keys.IsKeyDown(Keys.Up))
+            {
+                stickMan2Rectangle.Y -= stickManSpeed;
+            }
+            if (keys.IsKeyDown(Keys.S))
+            {
+                stickMan1Rectangle.Y += stickManSpeed;
+            }
+            if (keys.IsKeyDown(Keys.W))
+            {
+                stickMan1Rectangle.Y -= stickManSpeed;
+            }
 
-            // TODO: Add your update logic here
+            if (ballMoveRight == true)
+            {
+                ballRectangle.X += ballSpeed;
+            }
+            else
+            {
+                ballRectangle.X -= ballSpeed;
+            }
+            if (ballMoveUp == true)
+            {
+                ballRectangle.Y -= ballSpeed;
+            }
+            else
+            {
+                ballRectangle.Y += ballSpeed;
+            }
+            if (keys.IsKeyDown(Keys.Escape)) Exit();
 
-            stickMan2Y = (GraphicsDevice.Viewport.Width - stickMan2Width);
+            //Gameplay Logic
+            if(ballRectangle.Y < 0) ballMoveUp = false;
+            if(ballRectangle.Y > (GraphicsDevice.Viewport.Height - ballHeight)) ballMoveUp = true;
+            if (stickMan1Rectangle.Y < 0) stickMan1Rectangle.Y = 0;
+            if (stickMan1Rectangle.Y > (GraphicsDevice.Viewport.Height - stickMan1Height)) stickMan1Rectangle.Y = (GraphicsDevice.Viewport.Height - stickMan1Height);
+            if (stickMan2Rectangle.Y < 0) stickMan2Rectangle.Y = 0;
+            if (stickMan2Rectangle.Y > (GraphicsDevice.Viewport.Height - stickMan2Height)) stickMan2Rectangle.Y = (GraphicsDevice.Viewport.Height - stickMan2Height);
+
+            if (ballRectangle.X > GraphicsDevice.Viewport.Width - ballWidth)
+            {
+                stickMan1Score++;
+                ballMoveRight = false;
+            }
+            if (ballRectangle.X < 0)
+            {
+                stickMan2Score++;
+                ballMoveRight = true;
+            }
+            if (ballRectangle.Intersects(stickMan1Rectangle))
+            {
+                ballMoveRight = true;
+            }
+            if (ballRectangle.Intersects(stickMan2Rectangle))
+            {
+                ballMoveRight = false;
+            }
 
             base.Update(gameTime);
         }
